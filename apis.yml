@@ -1,8 +1,24 @@
 aid: impossible-aerospace
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/impossible-aerospace.png
 name: Impossible Aerospace
-description: 'Impossible Aerospace is a company surfaced as a portfolio company of bessemer-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Impossible Aerospace is a deep-tech aerospace hardware company founded in 2016 by Spencer
+  Gore in Santa Clara, California. It builds the US-1, a long-range all-electric quadcopter whose lithium-ion
+  cells form part of the airframe structure, giving it up to roughly two hours of flight time for aerial
+  imaging, surveillance, and public-safety missions with law enforcement and first responders. The US-1
+  runs the third-party Auterion OS flight stack (built on the PX4 open autopilot). The company was later
+  acquired and operates as a small team. Enrichment note (2026-07-19): the company publishes no public
+  API, SDK, or developer surface, and its primary domain impossible.aero no longer resolves in DNS.'
 url: https://raw.githubusercontent.com/api-evangelist/impossible-aerospace/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Deep Tech
+- Aerospace
+- Drones
+- UAV
+- Public Safety
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +46,8 @@ maintainers:
 common:
 - type: Website
   url: https://impossible.aero/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
